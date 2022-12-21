@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.header_div {
+    display: flex;
+    align-items: center;justify-content: space-between;
+    background-color: #d0082e;
+    height: 15vh;
+}
+
+.heading_left{
+    color: rgb(28, 28, 82);
+    margin-left:50px ;
+    color: white;
+    font-family: cursive;
+    font-size: 24px;
+}
+
+.link_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-right: 30px;
+}
+
+.link_right > h3 > a{
+    text-decoration: none;
+    color: white;
+}
+
+.link_right > h3 > a:hover{
+    color: rgb(25, 15, 29);
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 85vh;
+    background-color:  #fff;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+.imageDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 20px;
+    padding: 2vmax;
+    gap: 25px;
+    /* border: 1px solid black; */
+}
+
+.imageDiv > img{
+    width: 300px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.imageDiv > img:hover{
+    box-shadow: 0px 1px 8px 5px rgb(253, 213, 101);
+    transform: scale(1.05);
+}
+
+.upload{
+    width: 100vw;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerupload{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+.inputUpload{
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.preView > img{
+    width: fit-content;
+    height:250px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.btn{
+    width: fit-content;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background-color:  #00A651;
+    border: 0.5px solid rgb(0, 0, 0);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+    background-color: #5cdf9b;
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 0px 1px 5px 2px grey;
+}
